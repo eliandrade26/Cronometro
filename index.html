@@ -20,11 +20,39 @@
 <body>
    <div class="container">
     <img src="relogio.jpg.png" alt="imagem de relogio">
-    <h1>0</h1>
-    <i  class="bi bi-play-circle"></i>
-    <i   class="bi bi-stop-circle-fill"></i>
+    <h1>00</h1>
+    <div class="container-button">
+    <button onclick="start()">Start</button>
+    <button onclick="stop()">Stop</button>
+  </div>
 </div>
-
-
 </body>
+<script>
+/* 
+setTimeout -> Executa uma vez
+setInterval -> Executa infinitas vezes
+  clearInterval -> Vai pausar o setinterval
+  */
+
+
+  let number = 0
+  let cron
+  let h1 = document.querySelector("h1")
+  
+
+function start(){
+cron =setInterval(function (){
+  number++;
+  
+            if (number === 1000) {
+                number = 0;
+            }
+            h1.innerHTML = number.toString().padStart(3, '0');
+},1000);
+}
+
+function stop(){
+clearInterval(cron)
+}
+</script>
 </html>

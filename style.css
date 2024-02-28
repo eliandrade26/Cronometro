@@ -13,29 +13,33 @@
     position: relative;
     display: inline-block;
     width: 100%;
-    background-color: blue;
 }
 img{
     width: 60%;
     display: block;
-    margin: auto;
-    
+    margin: auto;   
 }
 
 h1{
     position:absolute;
-    margin-top: -35%;
-    margin-left: 47%;
+    margin-top: -33%;
+    margin-left: 43%;
     color: #ffff;
     width: 5%;
     height: 10%;
     font-size: 150px;  
 }
-
-i{
-    position:static;
-    margin-top: -35%;
-    margin-left: 57%;
-    background-color: blue;
-    
+.container-button{
+    position:absolute;
+    margin-top: -20%;
+    margin-left: 42%;
+    width: 20%;  
+}
+button{
+    display: inline;
+    margin-left: 9%;
+    width: 100px;
+    height: 60px;
+    border-radius: 20px;
+    font-size: 20px;
 }
