@@ -263,8 +263,7 @@ button {
 
     button {
         display: inline;
-        margin-left: %;
-        width: 130px;
+         width: 130px;
         height: 50px;
         border-radius: 5px;
         font-size: 40px;
