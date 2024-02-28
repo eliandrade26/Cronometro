@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Kode Mono", monospace;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+  }
+
+
+.container{
+    position: relative;
+    display: inline-block;
+    width: 100%;
+    background-color: blue;
+}
+img{
+    width: 60%;
+    display: block;
+    margin: auto;
+    
+}
+
+h1{
+    position:absolute;
+    margin-top: -35%;
+    margin-left: 47%;
+    color: #ffff;
+    width: 5%;
+    height: 10%;
+    font-size: 150px;  
+}
+
+i{
+    position:static;
+    margin-top: -35%;
+    margin-left: 57%;
+    background-color: blue;
+    
+}
